@@ -5,8 +5,8 @@ $latex = 'uplatex -interaction=nonstopmode -file-line-error %O %S';
 $max_repeat = 5;
 
 # # BibTeX
-# $bibtex = 'upbibtex %O %S';
-# $biber = 'biber --bblencoding=utf8 -u -U --output_safechars %O %S';
+$bibtex = 'upbibtex %O %S';
+$biber = 'biber --bblencoding=utf8 -u -U --output_safechars %O %S';
 
 # DVI / PDF
 # dvi -> pdf の変換に使用するものとしてdvipdfmxを指定
